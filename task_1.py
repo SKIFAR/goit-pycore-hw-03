@@ -9,3 +9,6 @@ def get_days_from_today(date: str) -> int | None:
     except ValueError:
         print("Invalid date format. Please use YYYY-MM-DD.")
         return None
+    
+# Example:
+print(get_days_from_today("2025-06-25"))
